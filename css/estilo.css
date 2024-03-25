@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*barra de navegacion de los 5 html*/
+.barra-navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-shadow: .0625rem, .0625rem, .125rem, rgba(0, 0, 0, 0.5); /*preguntar bien como funcionaba*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.imagen-animes-varios {
+    width: 100%;
+    height: auto;
+
+}
+
+.recomendados, .seguir-viendo {
+    margin-top: 20px;
+}
+
+.recomendados-img, .seguir-viendo-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*empieza el top10*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(208, 19, 255), black); /* Fondo degradado */
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas, repasar teoria de nuevo  */
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    position: relative;
+    text-align: center; /* Centra el texto dentro del contenedor, preguntar*/
+}
+
+.image h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nombre-anime {
+    color: aliceblue;
+    padding: .9375rem;
+}
+
+/*empieza noticias.html*/
+
+.titulo-noticiash1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.estilo-general {
+    margin-bottom: 20px;
+    overflow: hidden; /* Clearfix */
+}
+
+
+.titulo-noticia {
+    margin-top: 0;
+    text-align: center;
+}
+
+.imagen-izquierda {
+    float: left;
+    margin-right: 20px; 
+}
+
+.imagen-derecha {
+    float: right; /*lleva la foto a la derecha*/
+    margin-left: 20px; 
+}
+
+.parrafo-izquierda{
+    text-align: center;
+    margin: 0%;
+}
+
+.parrafo-derecha {
+    text-align: center; 
+    margin: 0;
+}
+
+/*empeiza tienda*/
+
+
+.main-tienda {
+    padding: 20px;
+}
+
+.h1-tienda {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.h2-tienda {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.productos-tienda {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-top: .9375rem;
+}
+
+/* arranca nosotros*/
+
+.main-nosotros {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.h1-nosotros {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.imagen-h1 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.columna-nosotros{
+    color: aliceblue;
+}
+
+.texto-nsotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto-nsotros .texto-columna {
+    width: calc(33.33% - 20px); /* Calcular el ancho para tres columnas */
+    margin-bottom: 20px;
+}
+
+.texto-nsotros p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.imagen-final-nosotros {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagen-final-nosotros img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-nsotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto-nsotros .texto-columna {
+    width: calc(33.33% - 20px); /* Calculo de columnas */
+    margin-bottom: 20px;
+}
+
+.texto-nsotros .texto-columna p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.6; 
+    text-align: justify; 
+}
+
+@media screen { 
+    
+}
