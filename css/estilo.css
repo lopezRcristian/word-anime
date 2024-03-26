@@ -297,7 +297,7 @@ h1 {
 
     .recomendados-img{
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas, repasar teoria de nuevo  */
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 
