@@ -188,74 +188,35 @@ h1 {
     margin-top: .9375rem;
 }
 
-/* arranca nosotros*/
-
-.main-nosotros {
-    max-width: 100%;
-    padding: 20px;
-}
-
-.h1-nosotros {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.imagen-h1 {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.columna-nosotros{
-    color: aliceblue;
-}
-
+/*arranca nosotros*/
 .texto-nsotros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.25rem; 
 }
 
 .texto-nsotros .texto-columna {
-    width: calc(33.33% - 20px); /* Calcular el ancho para tres columnas */
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .texto-nsotros p {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.imagen-final-nosotros {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.imagen-final-nosotros img {
-    width: 100%;
-    height: auto;
-}
-
-.texto-nsotros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.texto-nsotros .texto-columna {
-    width: calc(33.33% - 20px); /* Calculo de columnas */
-    margin-bottom: 20px;
-}
-
-.texto-nsotros .texto-columna p {
-    margin-bottom: 10px;
+    margin-bottom: 1.25rem;
     font-size: 18px;
     line-height: 1.6; 
     text-align: justify; 
+    color: aliceblue;
+}
+
+.texto-nsotros .texto-columna:nth-child(1) {
+    grid-column: 1 / 2; 
+}
+
+.texto-nsotros .texto-columna:nth-child(2) {
+    grid-column: 2 / 3; 
+}
+
+.texto-nsotros .texto-columna:nth-child(3) {
+    grid-column: 3 / 4;
 }
 
 @media (max-width:768px ) { 
