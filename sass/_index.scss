@@ -1,39 +1,67 @@
 
-
-
-
-
-
-nav ul li a{
-    text-decoration: none;
-    color: rgb(255, 250, 250);
-}
-
-
-
-.imagen-animes-varios {
+.tituloMundo{
+    display: flex;
     width: 100%;
-    height: auto;
+    gap: .3125rem;
+    .titulo-mundo{
+        font-size: 1.4375rem;
+    }
 
+    .imagen-animes-varios{
+        width: 100%;
+    }
 }
 
-.recomendados, .seguir-viendo {
+.recomendados  {
+    width: 100%;
     margin-top: 20px;
     color: aliceblue;
+
+    .item {
+        text-align: center;
+    }
+    
+    .item img {
+        width: 324.66px;
+        height: 292.19px;
+    }
+
+    .recomendados-img {
+        width: 100%;
+        display: flex;
+        justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+        margin-top: 10px;
+        color: aliceblue;
+        padding: 15px;
+        gap: 10px;
+
+
+    }
 }
 
-.recomendados-img, .seguir-viendo-img {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    color: aliceblue;
-}
-
-.item {
-    text-align: center;
-}
-
-.item img {
+.seguir-viendo{
     width: 100%;
-    height: auto;
+    margin-top: 20px;
+    color: aliceblue;
+
+    .item {
+        text-align: center;
+    }
+    
+    .item img {
+        width: 324.66px;
+        height: 292.19px;
+    }
+
+    .seguir-viendo-img {
+        width: 100%;
+        display: flex;
+        justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+        margin-top: 10px;
+        color: aliceblue;
+        padding: 15px;
+        gap: 10px;
+    }
 }
+
+
