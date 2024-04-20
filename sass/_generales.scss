@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*barra de navegacion de los 5 html*/
+.barra-navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(234, 227, 227);
+    padding: 20px;
+    text-shadow: .0625rem, .0625rem, .125rem, rgba(0, 0, 0, 0.5); /*preguntar bien como funcionaba*/
+}
+
+.footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+.menu-hamburgesa{
+    display: flex;
+}

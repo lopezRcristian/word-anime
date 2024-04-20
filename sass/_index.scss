@@ -1,0 +1,39 @@
+
+
+
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+}
+
+
+
+.imagen-animes-varios {
+    width: 100%;
+    height: auto;
+
+}
+
+.recomendados, .seguir-viendo {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.recomendados-img, .seguir-viendo-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
