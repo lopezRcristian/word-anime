@@ -51,7 +51,15 @@
     }
 }
 
-@media {max-width: ;
-    
+@media (max-width: 426px) {
+/*home*/
+.titulo-mundo { 
+    font-size: 10px;
+}
+    .recomendados-img, .seguir-viendo-img, .item {
+        width: 90%;
+        flex-direction: column;
+    }
+
 }
 

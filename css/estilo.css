@@ -343,5 +343,15 @@ h1 {
     font-size: 10px;
   }
 }
+@media (max-width: 426px) {
+  /*home*/
+  .titulo-mundo {
+    font-size: 10px;
+  }
+  .recomendados-img, .seguir-viendo-img, .item {
+    width: 90%;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
