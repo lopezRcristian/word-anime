@@ -28,10 +28,20 @@
 }
 
 .productos-tiendas {
+    
     background-color: #fff; 
     padding: 10px; 
     border-radius: 8px; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+
+    .carrito{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 90%;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+    }
 }
 
 .productos-tiendas img {

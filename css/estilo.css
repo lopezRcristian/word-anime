@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -234,6 +235,14 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.productos-tiendas .carrito {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 90%;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
 
 .productos-tiendas img {
   width: 100%;
@@ -261,34 +270,44 @@ h1 {
   width: 100%;
   margin-top: 20px;
   color: aliceblue;
-  padding: 15px;
-  gap: 10px;
-  display: flex;
-  justify-content: space-around;
 }
-.recomendados .recomendados-img {
+.recomendados .item {
   text-align: center;
 }
-.recomendados .recomendados-img img {
+.recomendados .item img {
   width: 324.66px;
   height: 292.19px;
+}
+.recomendados .recomendados-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+  margin-top: 10px;
+  color: aliceblue;
+  padding: 15px;
+  gap: 10px;
 }
 
 .seguir-viendo {
   width: 100%;
   margin-top: 20px;
   color: aliceblue;
-  padding: 15px;
-  gap: 10px;
-  display: flex;
-  justify-content: space-around;
 }
-.seguir-viendo .seguir-viendo-img {
+.seguir-viendo .item {
   text-align: center;
 }
-.seguir-viendo .seguir-viendo-img img {
+.seguir-viendo .item img {
   width: 324.66px;
   height: 292.19px;
+}
+.seguir-viendo .seguir-viendo-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+  margin-top: 10px;
+  color: aliceblue;
+  padding: 15px;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
