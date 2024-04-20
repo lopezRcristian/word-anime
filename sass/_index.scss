@@ -12,56 +12,89 @@
     }
 }
 
-.recomendados  {
-    width: 100%;
-    margin-top: 20px;
-    color: aliceblue;
+// .recomendados  {
+//     width: 100%;
+//     margin-top: 20px;
+//     color: aliceblue;
 
-    .item {
-        text-align: center;
-    }
+//     .item {
+//         text-align: center;
+//     }
     
-    .item img {
+//     .item img {
+//         width: 324.66px;
+//         height: 292.19px;
+//     }
+
+//     .recomendados-img {
+//         width: 100%;
+//         display: flex;
+//         justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+//         margin-top: 10px;
+//         color: aliceblue;
+//         padding: 15px;
+//         gap: 10px;
+
+
+//     }
+// }
+
+// .seguir-viendo{
+//     width: 100%;
+//     margin-top: 20px;
+//     color: aliceblue;
+
+//     .item {
+//         text-align: center;
+//     }
+    
+//     .item img {
+//         width: 324.66px;
+//         height: 292.19px;
+//     }
+
+//     .seguir-viendo-img {
+//         width: 100%;
+//         display: flex;
+//         justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
+//         margin-top: 10px;
+//         color: aliceblue;
+//         padding: 15px;
+//         gap: 10px;
+//     }
+// }
+
+// Definición del mixin para los estilos comunes de los elementos .item
+@mixin estilos-item {
+    text-align: center;
+    img {
         width: 324.66px;
         height: 292.19px;
     }
+}
 
+// Definición del mixin para los estilos comunes de las secciones .recomendados y .seguir-viendo
+@mixin estilos-seccion {
+    width: 100%;
+    margin-top: 20px;
+    color: aliceblue;
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+// Uso de los mixins
+.recomendados {
+    @include estilos-seccion;
     .recomendados-img {
-        width: 100%;
-        display: flex;
-        justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
-        margin-top: 10px;
-        color: aliceblue;
-        padding: 15px;
-        gap: 10px;
-
-
+        @include estilos-item;
     }
 }
 
-.seguir-viendo{
-    width: 100%;
-    margin-top: 20px;
-    color: aliceblue;
-
-    .item {
-        text-align: center;
-    }
-    
-    .item img {
-        width: 324.66px;
-        height: 292.19px;
-    }
-
+.seguir-viendo {
+    @include estilos-seccion;
     .seguir-viendo-img {
-        width: 100%;
-        display: flex;
-        justify-content: space-around; /* Aquí debería respetar el espacio alrededor */
-        margin-top: 10px;
-        color: aliceblue;
-        padding: 15px;
-        gap: 10px;
+        @include estilos-item;
     }
 }
-
-
