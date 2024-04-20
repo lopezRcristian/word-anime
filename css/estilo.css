@@ -320,8 +320,14 @@ h1 {
     width: 32px;
     height: 30px;
   }
-  .titulo-mundo {
+  .tituloMundo .titulo-mundo {
     font-size: 1.25rem;
+  }
+  .imagen-animes-varios {
+    width: 100%;
+  }
+  .recomendados {
+    width: 100%;
   }
   .recomendados-img {
     display: grid;
@@ -331,26 +337,44 @@ h1 {
   .item {
     text-align: center;
   }
-  .item img {
-    width: 100%;
-    height: auto;
+  .recomendados .item img {
+    width: 239px;
+    height: 233px;
+    padding: 10px;
+  }
+  .seguir-viendo-img .item img {
+    width: 239px;
+    height: 233px;
     padding: 10px;
   }
   .barra-navegacion {
     font-size: 12px;
   }
-  div, img, p {
-    font-size: 10px;
+  div,
+  img,
+  p {
+    font-size: 15px;
+  }
+  footer .footer {
+    font-size: 16px;
   }
 }
 @media (max-width: 426px) {
   /*home*/
-  .titulo-mundo {
+  .tituloMundo .titulo-mundo {
     font-size: 10px;
   }
-  .recomendados-img, .seguir-viendo-img, .item {
+  .recomendados-img,
+  .seguir-viendo-img,
+  .item {
     width: 90%;
     flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .tituloMundo .titulo-mundo {
+    font-size: 7px;
+    text-align: justify;
   }
 }
 
