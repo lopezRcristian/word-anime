@@ -22,6 +22,21 @@
         height: 30px;
     }
 
+    .barra-navegacion {
+        font-size: 12px;
+    }
+
+    div,
+    img,
+    p {
+        font-size: 15px;
+    }
+
+    footer .footer{
+        font-size: 16px;
+    }
+
+    /*home*/
     .tituloMundo .titulo-mundo {
         font-size: 1.25rem;
     }
@@ -56,20 +71,61 @@
         padding: 10px;
     }
 
-
-    .barra-navegacion {
-        font-size: 12px;
+    /*noticias*/
+    .titulo-noticiash1{
+        font-size: 25px;
     }
 
-    div,
-    img,
-    p {
-        font-size: 15px;
-    }
+    .estilo-general {
+        width: 100%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        text-align: center;    
+        }
 
-    footer .footer{
-        font-size: 16px;
-    }
+        .titulo-noticia1 {
+            margin-top: 5px;
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .titulo-noticia2 {
+            margin-top: 5px;
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .imagen-izquierda {
+            justify-content: center;
+            margin: 0.5px;
+            float: none;
+        }
+        
+        
+        .imagen-derecha {
+            justify-content: center;
+            margin: 0.5px;
+            float: none;
+        }
+        
+        .parrafo-izquierda{
+            text-align: center;
+            margin: 0%;
+            color: aliceblue;
+            font-size: 18px;
+            width: 100%;
+        }
+        
+        .parrafo-derecha {
+            text-align: center; 
+            margin: 0;
+            color: aliceblue;
+            align-content: center;
+            width: 100%;
+            font-size: 18px;
+        }
+
+
 }
 
 @media (max-width: 426px) {
@@ -85,6 +141,79 @@
         width: 90%;
         flex-direction: column;
     }
+
+    /*top10*/
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /*tienda*/
+    .productos-tiendas .carrito {
+        margin-left: 70%;
+        width: 25px;
+        height: 25px;
+        }
+
+    /*noticias*/
+    .titulo-noticiash1{
+        font-size: 18px;
+    }
+
+    .estilo-general {
+        width: 100%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        text-align: center;    
+        }
+
+        .titulo-noticia1 {
+            margin-top: 0;
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .titulo-noticia2 {
+            margin-top: 0;
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .imagen-izquierda {
+            justify-content: center;
+            width: 350px;
+            height: 300px;
+            margin: 0.5px;
+            float: none;
+        }
+        
+        
+        .imagen-derecha {
+            justify-content: center;
+            margin: 0.5px;
+            width: 350px;
+            height: 300px;
+            float: none;
+        }
+        
+        .parrafo-izquierda{
+            text-align: center;
+            margin: 0%;
+            color: aliceblue;
+            font-size: 12px;
+            width: 100%;
+        }
+        
+        .parrafo-derecha {
+            text-align: center; 
+            margin: 0;
+            color: aliceblue;
+            align-content: center;
+            width: 100%;
+            font-size: 12px;
+        }
 }
 
 @media (max-width: 375px){
@@ -92,4 +221,6 @@
         font-size: 7px;
         text-align: justify;
     }
+
+
 }
