@@ -4,6 +4,8 @@
 }
 
 .estilo-general {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
     overflow: hidden;
     text-align: center;
@@ -23,12 +25,12 @@
 }
 
 .imagen-izquierda {
-    float: left;
+    justify-content: left;
     margin-right: 20px; 
 }
 
 .imagen-derecha {
-    float: right; /*lleva la foto a la derecha*/
+    justify-content: right; /*lleva la foto a la derecha*/
     margin-left: 20px; 
 
 }
@@ -37,10 +39,12 @@
     text-align: center;
     margin: 0%;
     color: aliceblue;
+    align-items: center;
 }
 
 .parrafo-derecha {
     text-align: center; 
     margin: 0;
     color: aliceblue;
+    align-items: center;
     }
